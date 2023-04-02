@@ -1,0 +1,218 @@
+*, html, body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fullcontainer {
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   text-align: center;
+   padding: 10px;
+   font-size: 17px;
+   font-weight: 500;
+   border-top: 20px;
+   background-color: lightslategray;
+}
+
+.wrapper {
+   display: flex;
+   width: 100%;
+   padding: 15px;
+   background-color: #222;
+   font-size: 20px;
+   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.isyraf {
+   display: flex;
+   flex-direction: row;
+   font-size: 27px;
+   padding: 20px;
+   margin-right: 50%;
+   margin-left: 100px;
+   text-transform: capitalize;
+}
+
+.fn {
+   color: crimson;
+   font-weight: 450;
+}
+
+.ln {
+   color: white;
+   padding-left: 4px;
+   font-weight: 700;
+}
+
+.navigation {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.searchbox {
+   display: flex;
+   align-items: center;
+   background-color: whitesmoke;
+   padding: 8px 16px;
+   border-radius: 50px;
+   box-shadow: inset;
+}
+
+.searchbox .searchicon {
+   font-size: 1.18rem;
+   color: crimson;
+}
+
+.searchbox .searchinput {
+   transition: .5s;
+   width: 0px;
+   overflow: hidden;
+}
+
+.searchinput .input {
+   border: none;
+   outline: none;
+   background-color: unset;
+   font-size: 20px;
+   font-weight: 550;
+}
+
+.searchbtn {
+   border-radius: 15px;
+   border-color: crimson;
+   background-color: crimson;
+   padding: 2px;
+   font-size: 17px;
+   font-weight: 400;
+   color: whitesmoke;
+   justify-content: center;
+   text-align: center;
+
+}
+
+.searchbox:hover .searchinput {
+   width: 100px;
+   margin-left: 20px;
+}
+
+.navigation>li {
+   list-style-type: none;
+   padding: 15px;
+}
+.navigation>li>a {
+   color: whitesmoke;
+   font-size: 20px;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+.navigation>li>a:hover {
+   color: crimson;
+   transition: all .4s ease-in-out;
+}
+
+
+.content {
+   display: flex;
+   flex-direction: row;
+}
+
+.container2 {
+   display: flex;
+   flex-direction: row;
+}
+
+.topright {
+   margin-top: 150px;
+   font-size: 30px;
+   padding: 10px;
+}
+
+img {
+   width: 60%;
+   height: 40%;
+   margin-top: 20px;
+   border-radius: 20px;
+   opacity: 0.8;
+}
+
+
+.judula {
+   font-size: 30px;
+   font-weight: 500;
+   margin-left: 180px;
+   padding-left: 30px;
+   text-transform: capitalize;
+}
+
+article {
+   display: flex;
+   width: 65%;
+   height: 330px;
+   float: left;
+   margin-left: 30px;
+   padding: 10px;
+   flex-direction: column;
+}
+
+article>img {
+   width: 70%;
+   height: 350px;
+}
+
+.paragrafa {
+   margin-right: 300px;
+   margin-top: 5px;
+   font-size: 17px;
+   font-weight: 400;
+   justify-content: center;
+   text-align: center;
+}
+
+aside{
+   display: block;
+   width: 25%;
+   height: 330px;
+   float: left;
+   background: crimson;
+   padding: 10px;
+   border-radius: 10px;
+   margin-top: 50px;
+   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+aside>img {
+   justify-content: center;
+   margin-left: 70px;
+}
+
+.kategori {
+   font-size: 30px;
+   font-weight: 700;
+   justify-content: center;
+   text-align: center;
+}
+
+.biodata {
+   text-decoration: none;
+   text-transform: capitalize;
+   padding: 10px;
+}
+
+footer {
+   display: block;
+   justify-content: center;
+   text-align: center;
+   margin-top: 600px;
+   padding: 20px;
+   background-color: #222;
+}
+
+.akhir {
+   font-size: 16px;
+   font-weight: 350;
+   color: whitesmoke;
+}
