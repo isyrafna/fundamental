@@ -15,4 +15,4 @@ class foodItem extends HTMLElement {
   }
 }
 
-customElements.define('food-item', foodItem);
+customElements.define("food-item", foodItem);
